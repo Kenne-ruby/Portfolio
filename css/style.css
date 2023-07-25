@@ -1,0 +1,129 @@
+/*-------------------- header -------------------------*/
+header{
+	width: 100%;height: 450px;
+	background-image: url(img/R.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+   
+}
+/*------------------------ Navbar -----------------------*/
+li:hover .nav-link{
+	border-bottom:2px  solid white;
+	
+}
+#nav-ul{
+	margin-left: auto;
+}
+#btn{
+   font-weight: bold;
+   background: black;
+}
+ #btn:hover{
+	background-color: white;
+	color: black !important;
+}
+/*------------------------- Animation-------------------------*/
+span{
+	position: relative;
+	animation-name: appear;
+	bottom: -200px;
+	animation-duration: 2s;
+	animation-timing-function:ease-out;
+	animation-fill-mode: forwards;
+
+}
+span:nth-of-type(2){
+	animation-duration: 2.2s;
+}
+span:nth-of-type(3){
+	animation-duration: 2.4s;
+}
+span:nth-of-type(4){
+	animation-duration: 2.6s;
+}
+span:nth-of-type(5){
+	animation-duration: 2.8s;
+}
+span:nth-of-type(6){
+	animation-duration: 3.0s;
+}
+span:nth-of-type(7){
+	animation-duration: 3.2s;
+}
+span:nth-of-type(8){
+	animation-duration: 3.4s;
+}
+
+
+@keyframes appear{
+ 	0%{
+ 		opacity: 0;
+ 		bottom: 0px;
+ 	}
+ 	75%{
+ 		opacity: 0;
+ 		bottom: 0px;
+ 	}
+ 	80%{
+ 		opacity: 0;
+ 		bottom: 0px;
+ 	}
+ 	100%{
+ 		opacity: 1;
+ 		bottom: 0;
+ 	}
+ }
+
+ /*------------------------- About-------------------------*/
+ h1{
+ 	font-weight: bolder;
+}
+#abtdiv{
+box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
+}
+#img{
+	border-radius: 1000px;
+}
+
+/*-------------------------- Works -----------------------------*/
+#workbody{
+	width:100%;
+	padding: 5px;
+	grid-gap: 15px;
+	text-align: center;
+}
+#work{
+	margin: 10px;
+	margin-top: 20px;
+	
+	padding: 20px;
+}
+/*----------------- Scroll effect --------------------------------*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*-------------------------- Footer -----------------------------*/
+@media screen and (min-width: 993px) and (max-width: 1500px){
+#i1{
+     margin-left:200px ;
+	}
+#i2{
+     margin-left:300px ;
+	}
+#i3{
+     margin-left:400px ;
+	}
+#i4{
+     margin-left:500px ;
+	}
+#i5{
+     margin-left:600px ;
+	}	
+
+}
+
+ul li a #nav-content5{
+	margin-left: auto !important;
+}
